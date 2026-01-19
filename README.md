@@ -184,4 +184,5 @@ Projekt powstał w celu nauki:
 - Clean Architecture
 - Dokumentacji API
 
-⭐ **Jeśli projekt Ci się podoba, daj gwiazdkę!** ⭐
+⭐ **Jeśli projekt Ci się podoba, daj gwiazdkę!** ⭐  
+**Pamiętaj: To projekt studencki - może nie być perfekcyjny** ❤️

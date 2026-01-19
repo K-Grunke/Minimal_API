@@ -21,6 +21,7 @@
 ## 🛠️ Konfiguracja środowiska
 
 ### 1. Zmienne środowiskowe (opcjonalnie, ale zalecane)
+
     ```
     # Windows (PowerShell)
     $env:JWT_KEY="twoj_bardzo_tajny_klucz_min_32_znaki_1234567890"
@@ -34,6 +35,7 @@
 ### 2. Konfiguracja bazy danych
 
 Edytuj src/Api/appsettings.Development.json:
+
     ```
     {
         "ConnectionStrings": {
@@ -41,7 +43,9 @@ Edytuj src/Api/appsettings.Development.json:
         }
     }
     ```
+
 ### 3. Generowanie klucza JWT (jeśli nie ustawiłeś zmiennej)
+
     ```
     # PowerShell
     [System.Text.Encoding]::UTF8.GetString([System.Security.Cryptography.RandomNumberGenerator]::GetBytes(64))
@@ -62,6 +66,7 @@ Projekt używa następujących pakietów (zdefiniowane w .csproj):
 ## 🐳 Uruchomienie z Dockerem
 
 **Opcja 1: Tylko baza danych**
+
     ```
     # Uruchom SQL Server
     docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=YourPassword123!" \
@@ -74,6 +79,7 @@ Projekt używa następujących pakietów (zdefiniowane w .csproj):
     ```
 
 **Opcja 2: Całość w Dockerze**
+
     ```
     cd docker
     docker-compose up -d
