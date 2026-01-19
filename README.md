@@ -1,5 +1,11 @@
 # 🚀 Minimal API .NET 9.0
 
+## 👨‍🎓 Informacje o autorze
+
+**Imię i nazwisko:** Konrad Grünke  
+**Kontakt:** konrad.grunke@gmail.com  
+**LinkedIn:** [linkedin.com/in/konrad-grunke/](https://www.linkedin.com/in/konrad-grunke/)
+
 Hej! 👋 To mój projekt edukacyjny stworzony w ramach zajęć/laboratoriów. Jest to REST API zbudowane na .NET 9 Minimal API z pełną autentykacją, autoryzacją i zarządzaniem zadaniami.
 
 ## 📖 O projekcie
