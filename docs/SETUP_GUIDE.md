@@ -136,9 +136,9 @@ Projekt używa następujących pakietów (zdefiniowane w .csproj):
 
 ## 📚 Przydatne linki
 
-.NET 9 Documentation - https://learn.microsoft.com/pl-pl/dotnet/
-Entity Framework Core - https://learn.microsoft.com/pl-pl/ef/core/
-Minimal APIs Guide - https://learn.microsoft.com/pl-pl/aspnet/core/tutorials/min-web-api?view=aspnetcore-10.0&tabs=visual-studio
-JWT in .NET - https://learn.microsoft.com/en-us/aspnet/core/security/authentication/configure-jwt-bearer-authentication?view=aspnetcore-10.0
+.NET 9 Documentation - https://learn.microsoft.com/pl-pl/dotnet/  
+Entity Framework Core - https://learn.microsoft.com/pl-pl/ef/core/  
+Minimal APIs Guide - https://learn.microsoft.com/pl-pl/aspnet/core/tutorials/min-web-api?view=aspnetcore-10.0&tabs=visual-studio  
+JWT in .NET - https://learn.microsoft.com/en-us/aspnet/core/security/authentication/configure-jwt-bearer-authentication?view=aspnetcore-10.0  
 
 **Uwaga: To projekt edukacyjny! Nie używaj w produkcji bez dodatkowych zabezpieczeń.** 🔒
