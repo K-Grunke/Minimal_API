@@ -1,0 +1,100 @@
+
+## 📄 **2. .gitignore** (dostosowany)
+
+## Ignoruj pliki wygenerowane przez IDE
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.ncrunch*
+*.[Cc]ache
+
+## Ignoruj wyniki kompilacji
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+publish/
+
+## Ignoruj pliki NuGet
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+!**/[Pp]ackages/repositories.config
+.nuget/
+*.nupkg
+NuGet.exe
+
+## Ignoruj pliki tymczasowe
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+*.pidb
+*.pdb
+*.swp
+*.*~
+~*.*
+*.tmp
+[Tt]emp/
+[Tt]empBuild/
+[Tt]empPE/
+
+## Ignoruj pliki środowiskowe i wrażliwe
+.env
+.env.local
+.env.*.local
+.dockerenv
+
+## Ignoruj pliki konfiguracyjne z danymi wrażliwymi
+src/Api/appsettings.*.json
+!src/Api/appsettings.json
+!src/Api/appsettings.Development.json.example
+
+## Ignoruj certyfikaty
+*.pfx
+*.cer
+*.crt
+*.key
+
+## Ignoruj pliki bazy danych lokalnych
+*.mdf
+*.ldf
+*.sdf
+
+## Ignoruj pliki Docker
+docker-compose.override.yml
+
+## Ignoruj pliki frontendowe (jeśli będą)
+node_modules/
+dist/
+build/
+
+## Ignoruj foldery z logami
+logs/
+
+## Ignoruj pliki Rider
+*.sln.iml
+*.csproj.DotSettings.user
+
+## Ignoruj pliki testowe
+TestResult.xml
+*.DynamicTestContainer.cs
+*.testlog
+
+## Migracje EF Core - KOMENTUJ/ODKOMENTUJ w zależności od potrzeb
+# Lab03_MinimalAPI/src/Api/Migrations/
+
+## Ignoruj pliki User Secrets
+secrets.json
