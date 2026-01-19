@@ -66,13 +66,16 @@ To backendowy system do zarządzania użytkownikami i zadaniami z:
 ## 📚 Endpointy
 
 **Publiczne:**
+    
     ```
     POST /api/v1/users/register  #Rejestracja  
     POST /api/v1/users/login     #Logowanie (zwraca JWT)  
     GET  /api/v1/hello/{name}      # Testowy endpoint  
     GET  /api/v1/health            # Health check  
     ```
+
 **Chronione (wymagają JWT):**
+
     ```
     GET    /api/v1/users           # Lista użytkowników
     GET    /api/v1/users/{id}      # Szczegóły użytkownika
@@ -88,6 +91,7 @@ To backendowy system do zarządzania użytkownikami i zadaniami z:
     GET    /api/v1/roles           # Lista ról
     POST   /api/v1/roles/assign    # Przypisanie roli (Admin only)
     ```
+
 **UWAGA: ten podgląd może nie być aktualny - to będą endpointy po przyszłych rozbudowach i modyfikacjach**
 
 ## 🛠️ Technologie
