@@ -1,4 +1,4 @@
-# 🚀 Lab03 - Minimal API .NET 9.0
+# 🚀 Minimal API .NET 9.0
 
 Hej! 👋 To mój projekt edukacyjny stworzony w ramach zajęć/laboratoriów. Jest to REST API zbudowane na .NET 9 Minimal API z pełną autentykacją, autoryzacją i zarządzaniem zadaniami.
 
